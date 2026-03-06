@@ -2,7 +2,7 @@
 layout: post
 title: "How to reduce MSDB size from 42Gb to 200Mb"
 description: "How to troubleshoot an oversized SQL Server msdb database and reduce it from 42GB to 200MB by cleaning Service Broker queues, Database Mail data, and SQL Agent history."
-tags: performance, SQL Server
+tags: performance, SQL Server, MSDB
 ---
 
 Recently I had a spare minute to investigate why an old test server was running too slow. First thing — I opened Resource Monitor and looked at the overall load. The `sqlserv.exe` process took up 100% of CPU and generated a large disk queue exceeding 300, whereas any value greater than 1 is already considered problematic.
