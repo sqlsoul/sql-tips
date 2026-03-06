@@ -8,7 +8,7 @@ tags:
   - dbForge Studio for MySQL
 ---
 
-**Introduction**
+## Introduction
 
 MySQL Server (starting from v 5.0), as Oracle and SQL Servers, allows creating [stored procedures and functions](https://dev.mysql.com/doc/refman/8.0/en/stored-routines.html).
 
@@ -16,7 +16,7 @@ Stored procedures are a set of SQL commands that can be compiled and stored on t
 
 While developing business logic of procedures, we often use a great number of variables (e.g., temporary outputs) to store. To assign static values to a variable or values of other variables, SET operator is used. [SET operator in stored procedures](https://dev.mysql.com/doc/refman/8.0/en/stored-programs-defining.html) is an extended version of usual SET operator. This allows using extended syntax **SET а=х, Ь=у**, where different variables types (local and server variables, global and session ones) can be mixed.
 
-**Problem**
+## Problem
 
 While assigning a value which size exceeds the maximum data type size of a variable, MySQL Server should show "Data type size exceeded" error. In such situations farther execution of procedure's code with the error should be aborted.
 
@@ -38,7 +38,7 @@ To illustrate this case, let us assign a variable value with TINYINT UNSIGNED da
 
 DECLARE v\_TINYINTUNSIGNED TINYINT UNSIGNED means that assigned values of v\_TINYINTUNSIGNED variable should be within 0 to 255 range. We assigned TINYINT UNSIGNED value that exceeded the maximum size – 127. After assigning, MySQL Server has stored value – 6, instead of expected – 250. No errors or warnings were shown. You will most likely pay no attention to this, but it can cause unexpected results after executing the procedure's code.
 
-**Solution**
+## Solution
 
 Here are our recommendations for such cases:
 
