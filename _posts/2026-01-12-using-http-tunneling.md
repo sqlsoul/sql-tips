@@ -30,7 +30,7 @@ Therefore, to start using HTTP tunneling, two principal actions must be undertak
 
 ## Uploading the Tunneling script
 
-1. In Windows Explorer, and type the following in the address line: ftp://web_server_name|ip address:port/. This will move you to the folders on the web server.
+1. In Windows Explorer, and type the following in the address line: ftp://web_server_name\|ip address:port/. This will move you to the folders on the web server.
 2. Enter the login information, if required.
 3. Locate the **tunnel.php** script in the **\Program Files\Installed Provider folder\dbForge Studio for MySQL\** folder (it is provided along with a distribution package of dbForge Studio for MySQL) and upload it to the required folder on the web server.
 
