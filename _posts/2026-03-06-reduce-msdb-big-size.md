@@ -71,6 +71,10 @@ I am referring to *CDC* (*Change Data Capture*), which is used as a tool for cap
 
 Upon sending *Event Notification* to *Service Broker*, the message may not reach the destination due to configuration problems, and then it is archived in a separate table. In general, if *Service Broker* is frequently used, you need to monitor state of *sys.sysxmitqueue*. When there is constant increase of data in the table, it is either a bug or we use *Service Broker* incorrectly.
 
+Execution plan from [dbForge Studio for SQL Server](https://www.devart.com/dbforge/sql/studio/sql-query-profiler.html):
+
+![The execution plan from dbForge Studio for SQL Server](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/How-to-reduce-%20MSDB-size.png)
+
 This query returns the top list of objects and their size:
 
 ```sql
