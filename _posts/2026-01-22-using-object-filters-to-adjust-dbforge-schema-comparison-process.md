@@ -71,6 +71,7 @@ Below, you can see an example of configuring a filter that includes only the tab
 With the help of the Filter Editor, you can create rules to control the specified objects that a filter includes or excludes. You can go to the **Filter rule for box** and select individual object types or *All object types*, and then edit the rules by setting the condition(s) and defining the filter expression:
 
 ![Define the filter condition](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/create-rules-1.png)
+
 ![Define the filter operator](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/filter-operator.png)
 
 If you need to remove a condition, you can click the cross icon next to the Object in the Filter pane. And to edit the filter you can click the filter icon once again:
