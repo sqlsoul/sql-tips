@@ -113,7 +113,7 @@ Filters are saved to the *D:\Custom Filters* folder on your computer. In Schema 
 You can apply a filter from the [command line](https://docs.devart.com/schema-compare-for-sql-server/using-the-command-line/switches-used-in-the-command-line.html) if you use *the /filter* switch and then specify the path to the filter you want to use.
 
 ```
-/filter:\<D:\Custom Filters\MyFilter\>
+/filter:<D:\Custom Filters\MyFilter>
 ```
 
 ## Conclusion
