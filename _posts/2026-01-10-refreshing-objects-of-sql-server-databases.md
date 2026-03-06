@@ -6,12 +6,6 @@ tags:
   - SQL Server
 ---
 
-# Refreshing Objects of SQL Server Databases
-
-**By dbForge Team** · November 2, 2010
-
----
-
 In some cases, for example, when migrating or updating objects, it's necessary **to update metadata** for views created without evident listing of columns in the select-list, i. e. for views of the SELECT \* FROM some\_table type. The built-in **sp\_refreshview** procedure is developed for these goals, it updates the metadata for the specified *non-schema-bound view*. Persistent metadata for a view can become outdated because of changes to the underlying objects upon which the view depends.
 
 Metadata of other objects containing the code can be changed using the built-in **sp\_refreshsqlmodule** procedure, that is designed to update metadata for the specified *non-schema-bound stored procedure*, *user-defined function*, *view*, *DML trigger* or *database-level DDL trigger* in the current database. Persistent metadata for these objects, such as data types of parameters, can become outdated because of changes to their underlying objects.
