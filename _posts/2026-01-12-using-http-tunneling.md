@@ -39,14 +39,14 @@ Therefore, to start using HTTP tunneling, two principal actions must be undertak
 When the tunneling script is uploaded, set up HTTP tunneling to connect to the database.  
 **To set up HTTP tunnel:**
 
-1. 1. On the **Database Explorer** toolbar, click the **New Connection** button. The **Database Connection Properties** dialog box opens.
-   2. Switch to the **HTTP** tab and select **Use HTTP tunnel**.
-   3. Enter the URL of the tunnel.php script uploaded to the web server. Note, if the web server is located on the port different from default 80, you should enter an URL like this: **http://\_web\_server\_name:port/script\_location**.
-   4. Select **Keep connection alive** to make the web server preserve the created connection open between requests.
+1. On the **Database Explorer** toolbar, click the **New Connection** button. The **Database Connection Properties** dialog box opens.
+2. Switch to the **HTTP** tab and select **Use HTTP tunnel**.
+3. Enter the URL of the tunnel.php script uploaded to the web server. Note, if the web server is located on the port different from default 80, you should enter an URL like this: **http://\_web\_server\_name:port/script\_location**.
+4. Select **Keep connection alive** to make the web server preserve the created connection open between requests.
 
 ![connection-properties-general](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/connection-properties-general.png)
 
-1. 1. (Optional) Select **Save password**, otherwise while opening the connection, the Connect to MySQL Database dialog box will appear and dbForge Studio will ask you to enter the password again.
+1. (Optional) Select **Save password**, otherwise while opening the connection, the Connect to MySQL Database dialog box will appear and dbForge Studio will ask you to enter the password again.
 
 ![http-login](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/http-login.png)
 
@@ -56,12 +56,12 @@ When the tunneling script is uploaded, set up HTTP tunneling to connect to the d
    **Port** — the TCP/IP port to connect to the remote MySQL Server. By default, it is 3306.User – the name of the user account on the remote MySQL Server.  
    **Password** — the password of the user account on the remote MySQL Server  
    ![connection-properties-http](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/connection-properties-http.png)
-4. If the tunneling script is located on the password-protected server, select **Use Credentials** and input login information (user, password) required to connect to the web server.
-5. Specify the default database of the MySQL Server. To see all available databases in Database Explorer, select **Show all databases**, otherwise you will see only the selected one.
-6. (Optional) To test the created connection, click the **Test Connection** button.
-7. Click OK to establish the database connection.
+3. If the tunneling script is located on the password-protected server, select **Use Credentials** and input login information (user, password) required to connect to the web server.
+4. Specify the default database of the MySQL Server. To see all available databases in Database Explorer, select **Show all databases**, otherwise you will see only the selected one.
+5. (Optional) To test the created connection, click the **Test Connection** button.
+6. Click OK to establish the database connection.
 
-**Tip**: To see a more appropriate name for the created connection in Database Explorer, change the default connection name. By default, the generated name looks like this: <selected database>.<MySQL Server host>.
+**Tip**: To see a more appropriate name for the created connection in Database Explorer, change the default connection name. By default, the generated name looks like this: \<selected database\>.\<MySQL Server host\>.
 
 ## Conclusion
 
