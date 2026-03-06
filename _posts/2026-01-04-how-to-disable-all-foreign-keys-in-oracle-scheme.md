@@ -3,8 +3,9 @@ layout: post
 title: "How To: Disable All Foreign Keys in Oracle Schema"
 description: "TPL/SQL script that enables or disables all foreign key constraints in an Oracle schema, useful for data maintenance, migrations, and synchronization tasks."
 tags:
-  - command line
-  - SQL Server
+  - data compare
+  - Oracle
+  - oracle tools
 ---
 
 When you perform data maintenance operations, sometimes, it's necessary to disable or enable all foreign keys in the user schema.
