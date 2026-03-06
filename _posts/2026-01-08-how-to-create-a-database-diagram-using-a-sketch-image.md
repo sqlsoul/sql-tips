@@ -16,19 +16,19 @@ Let's try to do this using [Database Designer of dbForge Studio for MySQL](https
 
 Let us suppose that you have a **sketch of the future database**:
 
-[![Database Structure](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/1statisticsystemsdb.png)
+![Database Structure](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/1statisticsystemsdb.png)
 
 Database Structure
 
 To place this picture onto an empty diagram you should create an empty document, for example, Diagram1.dbd by pressing **New Database Diagram** on the Standard toolbar. After that you should press the New Image button on the Database Diagram toolbar. The mouse pointer will change to an icon with a picture. Click on any part of the diagram. In the Open dialog window that appeared select the image with the diagram structure sketch.
 
-[![Open New Image](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/2new-image.jpg)
+![Open New Image](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/2new-image.jpg)
 
 Database Designer: Open New Image
 
 Now as you see the database sketch you can recreate the database from it. Let's create the necessary tables with Primary Key and indexes one by one. For example, to create the Sessions table press the New Table button on the **Database Diagram** toolbar. The mouse pointer should change to an icon with a table. Click on any part of the diagram. A window for editing the Table1 table should appear.
 
-[![Create New Table](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/3new-table.jpg)
+![Create New Table](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/3new-table.jpg)
 
 Database Designer: Create New Table
 
@@ -39,7 +39,7 @@ Using the database editor window you should do the following:
 
 As a result we've got a new entity on the diagram – the Sessions table.
 
-[![Design New Table](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/4design-new-table.jpg)
+![Design New Table](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/4design-new-table.jpg)
 
 Database Designer: Design New Table
 
@@ -49,13 +49,13 @@ Now we can add a relation between the Hits and Sessions tables. To do this, you 
 * press the New Relation button on the **Database Diagram** toolbar. The mouse pointer should change to an icon with an arrow. Then click the Hits table, and, without releasing the mouse button, drag the cursor to any part of the Sessions table and release the mouse button(\*\*).
 * in the Foreign Key Properties window that appeared select the SessionID column from the "Table Columns" columns list and press the [→] button. The SessionID column was moved to the "Constraints Columns" column list. Save these changes by pressing OK.
 
-[![Create New Relation](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/5new-relation.jpg)
+![Create New Relation](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/5new-relation.jpg)
 
 Database Designer: Create New Relation
 
 As a result, we've bound two tables – "Hits" and "Sessions" using the foreign key "hits\_FK".
 
-[![Display Relation](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/6display-relation.jpg)
+![Display Relation](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/6display-relation.jpg)
 
 Database Designer: Display Relation
 
@@ -67,13 +67,13 @@ To create a new container and move the necessary objects into it you should:
 * Select the tables you want to move to the container. For example, let's select Users, Registrars, Products, and OrderLinks tables;
 * Move the selected tables onto the container;
 
-[![New Container](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/7new-container.jpg)
+![New Container](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/7new-container.jpg)
 
 Database Designer: New Container
 
 And the final step in the process of database creation using a sketch is the optimization of database objects location on the diagram. The algorithm used by Layout Diagram is designed so that the program redraws the relations between tables so that they would not intersect each other. This allows to save space on the diagram and makes it readable.
 
-[![Layout Diagram](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/8layout-diagram.jpg)
+![Layout Diagram](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/8layout-diagram.jpg)
 
 Database Designer: Layout Diagram
 
