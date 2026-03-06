@@ -8,12 +8,6 @@ tags:
   - synchronize database
 ---
 
-# Loading Oracle LOB Data – Code Samples
-
-**By dbForge Team** · October 7, 2010
-
----
-
 Recently we were working over the release of the version 2.0 of [dbForge Data Compare for Oracle](https://www.devart.com/dbforge/oracle/datacompare/). One of the main features added to the new version was synchronization of the LOB data. When we developed the first release of the product we postponed this feature because of challenges of synchronizing LOB data. These challenges caused by nature of data stored in BLOB or CLOB columns. It's large and simply does not fit into SQL script. But we've found the solution.
 
 In this article we will examine basic methods of loading LOB data into a table.
