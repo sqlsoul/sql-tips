@@ -33,7 +33,7 @@ Now let's see how we can easily resolve this problem with the help of the Python
 
 Across the internet, there are a number of resources that provide JSON API for foreign exchange rates and currency conversion. We will use [fixer.io](https://fixer.io/) in this demo.
 
-![data-generator-python](github.com/sqlsoul/sql-tips/blob/main/assets/media/data-generator-python.png?raw=true)
+![data-generator-python](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/data-generator-python.png)
 
 Select the Python generator for the **AverageRate** column and use the following script to get the data:
 
