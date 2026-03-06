@@ -60,7 +60,7 @@ The new feature of Oracle 11g is **DBMS\_COMPARISON package**. It helps to detec
 
 Third-party components offer their solutions for data synchronization, for example, **SharePlex** for Oracle by Quest Software, **WisdomForce** Database Sync System, **SymmetricDS** by symmetricds.codehaus.org. We don't describe benefits and shortcomings of these solutions in our article. Please contact these companies for more information about their respective product offerings.
 
-**Conclusion**  
+## Conclusion  
 As we can see, the solutions mentioned in this article solve the task described in the beginning of it to some extent, but they have such limitations as difficulties in configuration, absence of a convenient GUI for fast analysis of differences, or high cost, or unavailable support for some Oracle versions.
 
 ### What Devart Offers
