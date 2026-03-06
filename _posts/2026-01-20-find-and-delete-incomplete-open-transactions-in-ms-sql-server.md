@@ -30,9 +30,9 @@ We also presented the process of [creating a CRUD stored procedure](https://blog
 
 Let's now review a number of settings that help you work more efficiently.
 
-1. [Tabs Coloring functionality](#Tabs_Coloring)
-2. [Import and Export Reset Settings](#Reset_Settings)
-3. [Restoring Documents Sessions](#Restoring_Sessions)
+1. Tabs Coloring functionality
+2. Import and Export Reset Settings
+3. Restoring Documents Sessions
 
 ## **Marking Execution Environment using colors**
 
