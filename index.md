@@ -10,7 +10,6 @@ Short, practical SQL tips, query patterns, and database tooling insights designe
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      - {{ post.date | date: "%B %d, %Y" }}
     </li>
   {% endfor %}
 </ul>
