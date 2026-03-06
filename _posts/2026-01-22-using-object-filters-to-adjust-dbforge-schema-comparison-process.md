@@ -8,12 +8,6 @@ tags:
   - SQL Server
 ---
 
-# Using Object Filters to Adjust Schema Comparison
-
-**By dbForge Team** · April 22, 2021
-
----
-
 In this article, you will learn how to apply object filters within [dbForge Schema Compare for SQL Server](https://www.devart.com/dbforge/sql/schemacompare/) to be able to adjust the schema comparison and synchronization process to your needs by excluding and including the necessary objects and object types.
 
 ## Why do we need to apply filters?
