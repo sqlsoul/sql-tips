@@ -112,11 +112,9 @@ Filters are saved to the *D:\Custom Filters* folder on your computer. In Schema 
 You can apply a filter from the [command line](https://docs.devart.com/schema-compare-for-sql-server/using-the-command-line/switches-used-in-the-command-line.html) if you use *the /filter* switch and then specify the path to the filter you want to use.
 
 ```
-/filter:<D:\Custom Filters\MyFilter>
+/filter:\<D:\Custom Filters\MyFilter\>
 ```
 
 ## Conclusion
 
 To sum up, we have outlined the importance of applying filters to schema comparison results and reviewed the Object Filter functionality in the dbForge Schema Compare tool. The feature is designed to help you focus on what's currently essential to you and implement error-free database deployments. Check other features that are part of [Schema Compare for SQL Server](https://www.devart.com/dbforge/sql/schemacompare/).
-
-[![Download Compare Bundle for SQL Server](https://blog.devart.com/wp-content/uploads/2021/05/Banner_blog_Compare_Bundle_for_SQL_Server_big.png)](https://www.devart.com/dbforge/sql/compare-bundle/?utm_source=DevartBlog&utm_medium=referral&utm_campaign=cc_CTA_banner)
