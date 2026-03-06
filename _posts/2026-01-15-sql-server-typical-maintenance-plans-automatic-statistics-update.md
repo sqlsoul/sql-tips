@@ -110,5 +110,3 @@ SELECT @SQL = (
 PRINT @SQL
 EXEC sys.sp_executesql @SQL
 ```
-
-In the next post, we will consider database backup automation.
