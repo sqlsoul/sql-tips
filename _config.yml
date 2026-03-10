@@ -11,7 +11,7 @@ description: Actionable SQL tips, database tools, and workflow tricks for develo
 show_downloads: false
 google_analytics: 
 
-url: "https://sqlsoul.github.io/"
+url: "https://sqlsoul.github.io"
 baseurl: "/sql-tips"
 
 permalink: /:title/
