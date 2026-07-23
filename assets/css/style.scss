@@ -30,12 +30,14 @@ body, p, h1, h2, h3, h4, h5, h6, li, a {
   }
  
   .table-scroll table {
-    width: auto; /* let the table grow past the container instead of squeezing */
+    width: auto; /* let columns size to their content instead of squeezing to fit */
   }
  
   .table-scroll th,
   .table-scroll td {
-    white-space: nowrap; /* stops cells from wrapping so the scroll is real */
+    white-space: normal; /* text wraps inside each cell, like on desktop */
+    word-break: break-word;
+    min-width: 100px; /* keeps narrow columns from collapsing into a single letter per line */
   }
  
   /* subtle fade hint on the right edge so people notice there's more to scroll */
