@@ -95,14 +95,17 @@ Devart's all-in-one IDE for SQL Server and Azure SQL, combining development, adm
 - Built-in AI Assistant for SQL
 - CI/CD via DevOps Automation and Source Control
 - Supports SQL Server, Azure SQL, and Amazon RDS
+
 **Cons:**
 - Full feature set needs a paid license
 - Windows-native; macOS/Linux need CrossOver or Wine
+
 **Features:**
 - Autocomplete, formatting, and debugging
 - Visual Query Builder and diagram designer
 - Data Pump import/export
 - Backup, restore, and AI throughout
+
 **Pricing:** Express free; Standard $249.95/yr; Professional $399.95/yr; Enterprise $549.95/yr
  
 ### 2. SSMS
@@ -117,14 +120,17 @@ Microsoft's free, official SQL Server GUI, now on the Visual Studio 22 shell wit
 - Completely free at any team size
 - Deepest admin coverage, including SSIS, SSAS, SSRS
 - Copilot built in for T-SQL (preview)
+
 **Cons:**
 - Windows-only
 - Schema and data comparison stay basic
+
 **Features:**
 - Object Explorer for browsing and scripting
 - Query Editor with execution plans
 - SSIS, SSAS, and SSRS administration
 - Modern connection dialog, Git integration
+
 **Pricing:** Free
  
 ### 3. VS Code + MSSQL extension
@@ -139,13 +145,16 @@ Microsoft's MSSQL extension turns VS Code into a full SQL Server client, with GA
 - Free, same editor as the rest of your code
 - Copilot integration is fully released (GA)
 - Schema Designer, Schema Compare, and Query Profiler are all GA
+
 **Cons:**
 - No SSIS, SSAS, SSRS, or deep security admin
+
 **Features:**
 - IntelliSense, Table Designer, Schema Designer
 - Schema Compare for databases and DACPACs
 - Query Plan Visualizer and real-time Query Profiler
 - Backup/restore, DACPAC/BACPAC, local containers
+
 **Pricing:** Free
  
 ### 4. DBeaver
@@ -160,14 +169,17 @@ A free, Java-based universal client connecting to 100+ databases, with paid tier
 - Broadest database compatibility on this list
 - ER diagrams and import/export in the free edition
 - Community edition is fully usable, not a trial
+
 **Cons:**
 - Eclipse-style interface feels dated
 - Heavier startup; AI features are paid-only
+
 **Features:**
 - Autocomplete and syntax highlighting
 - ER diagrams from existing schemas
 - Import/export across many formats
 - Query history and multi-database sessions
+
 **Pricing:** Community free; Enterprise Edition from $255/user/yr
  
 ### 5. DataGrip
@@ -182,14 +194,17 @@ JetBrains' dedicated SQL IDE on the IntelliJ engine, with strong autocomplete an
 - Autocomplete and refactoring above most peers
 - Solid schema comparison, VCS built in
 - Familiar if you already use JetBrains IDEs
+
 **Cons:**
 - No perpetual free tier
 - Admin tools lighter than SSMS
+
 **Features:**
 - Schema-aware code completion
 - Query console with searchable history
 - Database diagrams
 - Refactoring across scripts
+
 **Pricing:** Paid plans start from $10.90/month (individuals)
  
 ### 6. Navicat for SQL Server
@@ -204,14 +219,17 @@ A commercial, cross-platform GUI focused on visual database design, modeling, an
 - Strong data and structure sync tools
 - Visual query builder and ER modeling
 - One license across Windows, macOS, and Linux
+
 **Cons:**
 - Perpetual plans start from $399
 - Heavier app, steeper learning curve
+
 **Features:**
 - Data and schema synchronization
 - Visual query builder
 - AI Assistant and Ask AI
 - Scheduled backups, Navicat Cloud
+
 **Pricing:** Paid plans start from $20.99 for non-commercial use. Perpetual plans starting from $399 also available
  
 ### 7. DbVisualizer
@@ -226,14 +244,17 @@ A Java-based cross-platform client with broad JDBC support, plus a Pro edition w
 - Broad JDBC-based database compatibility
 - Pro adds ER diagrams and explain plans
 - Perpetual license with every subscription
+
 **Cons:**
 - Free tier lacks table management and query builder
 - Java interface feels dated
+
 **Features:**
 - SQL editor with autocomplete
 - ER diagrams and explain plan visualizer
 - Data export tools
 - AI assistant on the Pro tier
+
 **Pricing:** Free tier; Pro $199 first yr, $89/yr renewal
  
 ### 8. Beekeeper Studio
@@ -248,13 +269,16 @@ An open-source, modern SQL client built for a clean interface and fast daily que
 - Free tier is genuinely usable
 - Fast, native-feeling interface
 - Full feature parity on Linux
+
 **Cons:**
 - No ER diagrams or query profiling
 - Admin depth well below SSMS or dbForge Studio
+
 **Features:**
 - Autocomplete and saved connections
 - Query history
 - Team workspaces and AI shell (paid)
+
 **Pricing:** Community free; paid tiers from ~$9/mo per user, billed yearly.
  
 ### 9. TablePlus
@@ -269,14 +293,17 @@ A native, closed-source client built for speed and polish across SQL Server and 
 - Fast native performance, especially on macOS
 - Clean, widely liked interface
 - Staging view before committing edits
+
 **Cons:**
 - License is per device, not per user
 - Lighter admin and schema tools
+
 **Features:**
 - Native SQL editor
 - Inline data editing with a review step
 - Multiple tabs and connections
 - SSH tunneling
+
 **Pricing:** Basic $99/1 device
  
 ### 10. RazorSQL
@@ -291,14 +318,17 @@ A veteran SQL editor and database browser connecting to 40+ database types, with
 - No ongoing subscription, ever
 - Unusually wide database support
 - Built-in engine for quick testing
+
 **Cons:**
 - Interface feels dated
 - No AI; comparison tools are basic
+
 **Features:**
 - SQL editor and database browser
 - Visual create, alter, and drop tools
 - Visual Query Builder GUI
 - Import/export, cross-platform support
+
 **Pricing:** Paid subscriptions start at $129/user (perpetual)
  
 ## Free vs paid SQL Server GUI tools: Which type should you choose?
