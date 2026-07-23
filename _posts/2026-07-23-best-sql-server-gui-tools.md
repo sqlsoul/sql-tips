@@ -41,6 +41,7 @@ Here's how ten SQL Server GUI tools compare on editing, administration, schema c
   - [Operating system and deployment requirements](#operating-system-and-deployment-requirements)
   - [Pricing, trial, and licensing](#pricing-trial-and-licensing)
 - [Takeaway: Which SQL Server GUI tool is best?](#takeaway-which-sql-server-gui-tool-is-best)
+
 ## What is a GUI in SQL Server?
  
 A GUI for SQL Server is a graphical tool for writing queries, managing databases, browsing objects, and handling everyday administration without relying entirely on the command line.
