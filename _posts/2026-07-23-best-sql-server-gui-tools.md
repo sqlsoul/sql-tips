@@ -84,7 +84,7 @@ Here are ten of the best SQL Server GUI tools available today. Each has its own 
  
 ### 1. dbForge Studio for SQL Server
  
-[IMAGE]
+![dbForge Studio for SQL Server](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/dbforge-studio-for-sql-server-logo.png)
  
 Devart's all-in-one IDE for SQL Server and Azure SQL, combining development, administration, comparison, and performance tools in one app.
  
