@@ -7,42 +7,46 @@
 body, p, h1, h2, h3, h4, h5, h6, li, a {
   font-family: 'Open Sans', sans-serif !important;
 }
-/* Horizontal scroll for wide tables on mobile.
+/* Horizontal scroll for wide tables, but ONLY on mobile.
+   On desktop the table renders normally (full width, normal wrapping).
    Pairs with <div class="table-scroll" markdown="1">...table...</div>
    wrapped around tables in the markdown source. */
-
-.table-scroll {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-bottom: 1.5em;
-}
-
+ 
 .table-scroll table {
   width: 100%;
   border-collapse: collapse;
 }
-
-/* Keeps cells on one line so the table actually scrolls
-   instead of squishing text and wrapping awkwardly. */
+ 
 .table-scroll th,
 .table-scroll td {
-  white-space: nowrap;
   padding: 8px 12px;
 }
-
-/* Optional: a subtle fade hint on the right edge so people
-   on mobile notice there's more table to scroll to. */
-.table-scroll {
-  position: relative;
-}
-
-.table-scroll::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 24px;
-  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.04));
-  pointer-events: none;
+ 
+@media (max-width: 768px) {
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+  }
+ 
+  .table-scroll table {
+    width: auto; /* let the table grow past the container instead of squeezing */
+  }
+ 
+  .table-scroll th,
+  .table-scroll td {
+    white-space: nowrap; /* stops cells from wrapping so the scroll is real */
+  }
+ 
+  /* subtle fade hint on the right edge so people notice there's more to scroll */
+  .table-scroll::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.04));
+    pointer-events: none;
+  }
 }
