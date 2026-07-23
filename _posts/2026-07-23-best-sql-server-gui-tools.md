@@ -51,7 +51,9 @@ For many teams, SQL Server Management Studio (SSMS) has been the default Microso
 ## How we chose these SQL Server GUI tools
  
 We judged every tool using the same six criteria: SQL editor depth, administration coverage, schema and data comparison, performance diagnostics, AI support, and pricing. Those are the things SQL Server teams actually look at when choosing a SQL Server GUI, so every product was measured the same way.
- 
+
+<div class="table-scroll" markdown="1">
+  
 | Evaluation area | Why it matters |
 |---|---|
 | SQL editor depth | Determines how much of daily query writing the tool actually speeds up |
@@ -60,11 +62,15 @@ We judged every tool using the same six criteria: SQL editor depth, administrati
 | Performance diagnostics | Shows how fast a slow query or fragmented index gets found and fixed |
 | AI support | Reflects how much of the tool's assistance is genuinely built in versus bolted on |
 | Pricing and licensing | Accounts for real cost across a team, not just the sticker price |
+
+</div>
  
 ## Quick comparison table: Best SQL Server GUI tools at a glance
  
 The following table shortlists ten [SQL Server GUI tools](https://www.devart.com/dbforge/sql/studio/) before the detailed breakdown. It focuses on the factors that actually change a decision: cost, editor depth, admin coverage, schema tooling, performance diagnostics, AI support, and platform reach.
- 
+
+<div class="table-scroll" markdown="1">
+
 | Tool | Best for | Free / trial | SQL editor | Admin tools | Schema tools | Performance | AI support | OS support |
 |---|---|---|---|---|---|---|---|---|
 | dbForge Studio for SQL Server | Full development and administration | Free trial / Free Express edition | Strong | Strong | Strong | Strong | Yes | Windows; macOS/Linux via Wine/CrossOver |
@@ -77,7 +83,9 @@ The following table shortlists ten [SQL Server GUI tools](https://www.devart.com
 | Beekeeper Studio | Modern lightweight SQL client | Free + paid | Good | Basic | Basic | Basic | Limited | Windows, macOS, Linux |
 | TablePlus | Fast SQL client | Trial / paid | Good | Basic/medium | Basic | Basic | Limited | Windows, macOS, Linux |
 | RazorSQL | Universal SQL editor | Trial / paid | Good | Medium | Medium | Basic | No/limited | Windows, macOS, Linux |
- 
+
+</div>
+
 ## The 10 best SQL Server GUI tools for teams
  
 Here are ten of the best SQL Server GUI tools available today. Each has its own strengths, whether you need a tool for development, database administration, performance tuning, or managing multiple database platforms.
