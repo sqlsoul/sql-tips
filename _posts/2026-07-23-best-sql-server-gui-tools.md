@@ -92,7 +92,7 @@ Here are ten of the best SQL Server GUI tools available today. Each has its own 
  
 ### 1. dbForge Studio for SQL Server
  
-![dbForge Studio for SQL Server](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/dbforge-studio-for-sql-server-logo.png)
+![dbForge Studio for SQL Server](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/dbforge-studio-for-sql-server-logo-120x120.png)
  
 Devart's all-in-one IDE for SQL Server and Azure SQL, combining development, administration, comparison, and performance tools in one app.
  
@@ -118,7 +118,7 @@ Devart's all-in-one IDE for SQL Server and Azure SQL, combining development, adm
  
 ### 2. SSMS
  
-[IMAGE]
+![SSMS](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/ssms-logo-120x120.png)
  
 Microsoft's free, official SQL Server GUI, now on the Visual Studio 22 shell with Git integration and Copilot.
  
@@ -143,7 +143,7 @@ Microsoft's free, official SQL Server GUI, now on the Visual Studio 22 shell wit
  
 ### 3. VS Code + MSSQL extension
  
-[IMAGE]
+![VS Code + MSSQL extension](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/vs-code-logo-120x120.png)
  
 Microsoft's MSSQL extension turns VS Code into a full SQL Server client, with GA schema, comparison, and profiling tools.
  
@@ -167,7 +167,7 @@ Microsoft's MSSQL extension turns VS Code into a full SQL Server client, with GA
  
 ### 4. DBeaver
  
-[IMAGE]
+![DBeaver](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/dbeaver-logo-120x120.png)
  
 A free, Java-based universal client connecting to 100+ databases, with paid tiers for NoSQL, SSO, and AI.
  
@@ -192,7 +192,7 @@ A free, Java-based universal client connecting to 100+ databases, with paid tier
  
 ### 5. DataGrip
  
-[IMAGE]
+![DataGrip](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/datagrip-logo-120x120.png)
  
 JetBrains' dedicated SQL IDE on the IntelliJ engine, with strong autocomplete and refactoring for every major database.
  
@@ -217,7 +217,7 @@ JetBrains' dedicated SQL IDE on the IntelliJ engine, with strong autocomplete an
  
 ### 6. Navicat for SQL Server
  
-[IMAGE]
+![Navicat for SQL Server](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/navicat-for-sql-server-logo-120x120.png)
  
 A commercial, cross-platform GUI focused on visual database design, modeling, and migration.
  
@@ -242,7 +242,7 @@ A commercial, cross-platform GUI focused on visual database design, modeling, an
  
 ### 7. DbVisualizer
  
-[IMAGE]
+![DbVisualizer](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/dbvisualizer-logo-120x120.png)
  
 A Java-based cross-platform client with broad JDBC support, plus a Pro edition with visual tools.
  
@@ -267,7 +267,7 @@ A Java-based cross-platform client with broad JDBC support, plus a Pro edition w
  
 ### 8. Beekeeper Studio
  
-[IMAGE]
+![Beekeeper Studio](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/beekeeper-studio-logo-120x120.png)
  
 An open-source, modern SQL client built for a clean interface and fast daily query work.
  
@@ -291,7 +291,7 @@ An open-source, modern SQL client built for a clean interface and fast daily que
  
 ### 9. TablePlus
  
-[IMAGE]
+![TablePlus](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/tableplus-logo-120x120.png)
  
 A native, closed-source client built for speed and polish across SQL Server and other databases.
  
@@ -316,7 +316,7 @@ A native, closed-source client built for speed and polish across SQL Server and 
  
 ### 10. RazorSQL
  
-[IMAGE]
+![RazorSQL](https://raw.githubusercontent.com/sqlsoul/sql-tips/refs/heads/main/assets/media/razorsql-logo-120x120.png)
  
 A veteran SQL editor and database browser connecting to 40+ database types, with a perpetual per-user license.
  
