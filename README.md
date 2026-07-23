@@ -21,4 +21,3 @@
 - [Be careful while using UNSIGNED data type in the routine body](https://sqlsoul.github.io/sql-tips/be-careful-while-using-unsigned-data-type-in-the-routine-body/)
 - [Data Comparison Methods and Techniques](https://sqlsoul.github.io/sql-tips/data-comparison-methods-overview/)
 - [10 Ways to Synchronize Oracle Table Data](https://sqlsoul.github.io/sql-tips/ten-ways-to-synchronize-oracle-table-data/)
--
