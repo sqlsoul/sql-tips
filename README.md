@@ -2,6 +2,7 @@
 
 ## Latest Posts
 
+- [PostgreSQL in 2026: The Default Choice for Modern Data Infrastructure](https://sqlsoul.github.io/sql-tips/postgresql-is-the-default-database/)
 - [Best SQL Server GUI Tools: Free and Paid Options](https://sqlsoul.github.io/sql-tips/best-sql-server-gui-tools/)
 - [Using Object Filters to Adjust Schema Comparison](https://sqlsoul.github.io/sql-tips/using-object-filters-to-adjust-dbforge-schema-comparison-process/)
 - [How to Automatically Synchronize Multiple Databases on Different SQL Server Instances](https://sqlsoul.github.io/sql-tips/how-to-compare-multiple-databases-from-the-command-line/)
