@@ -114,7 +114,7 @@ These are questions to answer in the plan before you start the migration. For sc
 
 dbForge Studio for PostgreSQL brings SQL editing, query profiling, schema comparison and data work into one environment. That can help a developer investigate a problem and prepare a change without repeatedly switching applications.
 
-Take a slow query. Query Profiler displays the execution plan and profiling results. After editing the SQL, the developer can run it again and compare the results. For schema work, comparisons between source and target databases can reveal environment differences and produce synchronization scripts for review.
+Take a slow query. Query Profiler displays the execution plan and profiling results. After editing the SQL, the developer can run it again and compare the results. When the problem sits inside a function, procedure or trigger, the [PostgreSQL debugger](https://www.devart.com/dbforge/postgresql/studio/postgresql-debugger.html) lets the developer set breakpoints, step through the code, watch variable values and pinpoint the statement that causes the problem. For schema work, comparisons between source and target databases can reveal environment differences and produce synchronization scripts for review.
 
 Devart describes the product as a cross-platform [PostgreSQL GUI](https://www.devart.com/dbforge/postgresql/studio/) and IDE. Import, export and reporting are available too, although feature availability depends on the edition.
 
