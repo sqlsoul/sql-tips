@@ -8,7 +8,7 @@ tags:
   - database
 ---
 
-PostgreSQL performance is easy to benchmark, but speed alone does not explain its popularity. What makes this database attractive comes down to several practical considerations.
+[PostgreSQL performance](https://www.devart.com/dbforge/postgresql/studio/postgresql-performance-tuning-and-optimization.html) is easy to benchmark, but speed alone does not explain its popularity. What makes this database attractive comes down to several practical considerations.
 
 PostgreSQL handles relational data well, supports SQL properly, and provides JSONB and a long list of extensions when the original setup is no longer enough. It’s also available across the major cloud platforms. A team can start with a normal application database and keep building on it before it needs to introduce another system.
 
