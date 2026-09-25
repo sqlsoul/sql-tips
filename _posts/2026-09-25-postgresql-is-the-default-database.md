@@ -124,7 +124,7 @@ When evaluating a PostgreSQL IDE, I'd start with an ordinary task from the team'
 
 AI generated SQL must be validated as correct and performant, the same as SQL written by a developer. Half the battle is just running a statement.
 
-Context-aware dbForge AI Assistant can generate queries, explain code, troubleshoot SQL and offer optimizations. That's good for first draft or unnamed statement. The reviewer still needs to verify the query returns the correct records and complies with the application’s permissions.
+Context-aware [dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/) can generate queries, explain code, troubleshoot SQL and offer optimizations. That's good for first draft or unnamed statement. The reviewer still needs to verify the query returns the correct records and complies with the application’s permissions.
 
 A join can look reasonable, and multiply rows unexpectedly. An aggregate can count the wrong thing and come up with a plausible number. Good formatting and confident explanations will not solve either problem.
 
