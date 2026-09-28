@@ -8,11 +8,11 @@ tags:
   - database
 ---
 
-[PostgreSQL performance](https://www.devart.com/dbforge/postgresql/studio/postgresql-performance-tuning-and-optimization.html) is easy to benchmark, but speed alone does not explain its popularity. What makes this database attractive comes down to several practical considerations.
+[PostgreSQL performance](https://www.devart.com/dbforge/postgresql/studio/postgresql-performance-tuning-and-optimization.html){:target="_blank" rel="noopener"} is easy to benchmark, but speed alone does not explain its popularity. What makes this database attractive comes down to several practical considerations.
 
 PostgreSQL handles relational data well, supports SQL properly, and provides JSONB and a long list of extensions when the original setup is no longer enough. It’s also available across the major cloud platforms. A team can start with a normal application database and keep building on it before it needs to introduce another system.
 
-That’s why today, about 58.2% of professional developers use this tool according to the [2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/technology).
+That’s why today, about 58.2% of professional developers use this tool according to the [2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/technology){:target="_blank" rel="noopener"}.
 
 However, while PostgreSQL can play a broader role than most teams initially expect, every added workload creates something else to monitor, tune and maintain. Application queries, reports, data pipelines, schema changes, extensions and AI-related features may all end up relying on the same database.
 
