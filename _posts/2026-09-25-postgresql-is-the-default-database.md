@@ -26,7 +26,7 @@ Imagine a product catalog. Prices and stock levels should be in neat columns. At
 
 Of course, there are other reasons to go with PostgreSQL. Developers are aware of this, hosting is readily available and its ecosystem provides capabilities that would otherwise have to be provided by different services.
 
-The [2025 database PostgreSQL results from Stack Overflow](https://survey.stackoverflow.co/2025/technology) show just how common that starting point has become. If the application is specialized in nature, the starting point for the decision may be different.
+The [2025 database PostgreSQL results from Stack Overflow](https://survey.stackoverflow.co/2025/technology){:target="_blank" rel="noopener"} show just how common that starting point has become. If the application is specialized in nature, the starting point for the decision may be different.
 
 ### Open-source maturity makes PostgreSQL more predictable
 
@@ -66,7 +66,7 @@ The difference is important: pgvector provides the vector data type as an extens
 
 Bringing those records together can help implement early. The embedding of a document, its metadata and the application access rules do not have to be coordinated immediately between the two data bases. The retrieval query still needs to correctly implement those rules.
 
-Some PostgreSQL-compatible deployments now handle much larger workloads. Google says AlloyDB customers are searching datasets from 100 million to [over a billion vectors](https://cloud.google.com/blog/products/databases/how-scann-for-alloydb-vector-search-compares-to-pgvector-hnsw). Those figures concern AlloyDB vector search, not pgvector generally. Don’t use them to size a standard PostgreSQL installation without testing.
+Some PostgreSQL-compatible deployments now handle much larger workloads. Google says AlloyDB customers are searching datasets from 100 million to [over a billion vectors](https://cloud.google.com/blog/products/databases/how-scann-for-alloydb-vector-search-compares-to-pgvector-hnsw){:target="_blank" rel="noopener"}. Those figures concern AlloyDB vector search, not pgvector generally. Don’t use them to size a standard PostgreSQL installation without testing.
 
 ### Analytics is moving closer to operational data
 
@@ -94,7 +94,7 @@ SQL console is not enough for more complex queries, reporting and data movement 
 
 A query's performance depends on the data and conditions in which it runs. Testing the same SQL with different parameters, stale statistics or concurrent writes can produce a very different result.
 
-The [Nubank migration results](https://aws.amazon.com/blogs/database/migrating-mission-critical-payments-at-nubank-to-amazon-aurora-postgresql/) make this unusually clear. One historical receipts query dropped from more than 13 minutes to 0.424 seconds, roughly a 1,900-fold improvement. Average production improvements were 15% to 20%. Another broad query improved by a factor of 1.26.
+The [Nubank migration results](https://aws.amazon.com/blogs/database/migrating-mission-critical-payments-at-nubank-to-amazon-aurora-postgresql/){:target="_blank" rel="noopener"} make this unusually clear. One historical receipts query dropped from more than 13 minutes to 0.424 seconds, roughly a 1,900-fold improvement. Average production improvements were 15% to 20%. Another broad query improved by a factor of 1.26.
 
 The spectacular result is worth reporting, but it tells an engineer little about what their own workload might look like. That needs measurements.
 
@@ -104,7 +104,7 @@ The spectacular result is worth reporting, but it tells an engineer little about
 
 A PostgreSQL migration is easier to diagnose when data movement, replication, validation and cutover are treated as separate stages. If one stage fails, the team needs to know what has already completed before deciding what to do next.
 
-Fluent Commerce's upgrade involved more than 350 Aurora PostgreSQL production databases, some as large as 32 TB. Its [published case study](https://aws.amazon.com/blogs/database/fluent-commerces-approach-to-near-zero-downtime-amazon-aurora-postgresql-upgrade-at-32-tb-scale-using-snapshots-and-aws-dms-ongoing-replication/) describes snapshots, restores, logical replication, AWS Database Migration Service and validation before cutover.
+Fluent Commerce's upgrade involved more than 350 Aurora PostgreSQL production databases, some as large as 32 TB. Its [published case study](https://aws.amazon.com/blogs/database/fluent-commerces-approach-to-near-zero-downtime-amazon-aurora-postgresql-upgrade-at-32-tb-scale-using-snapshots-and-aws-dms-ongoing-replication/){:target="_blank" rel="noopener"} describes snapshots, restores, logical replication, AWS Database Migration Service and validation before cutover.
 
 That scale is faced by few teams. But even a much smaller move raises awkward questions. How do you verify completeness? When does the application write to the new db? If rollback is necessary, what happens to the writes accepted after the cutover?
 
@@ -114,9 +114,9 @@ These are questions to answer in the plan before you start the migration. For sc
 
 dbForge Studio for PostgreSQL brings SQL editing, query profiling, schema comparison and data work into one environment. That can help a developer investigate a problem and prepare a change without repeatedly switching applications.
 
-Take a slow query. Query Profiler displays the execution plan and profiling results. After editing the SQL, the developer can run it again and compare the results. When the problem sits inside a function, procedure or trigger, the [PostgreSQL debugger](https://www.devart.com/dbforge/postgresql/studio/postgresql-debugger.html) lets the developer set breakpoints, step through the code, watch variable values and pinpoint the statement that causes the problem. For schema work, comparisons between source and target databases can reveal environment differences and produce synchronization scripts for review.
+Take a slow query. Query Profiler displays the execution plan and profiling results. After editing the SQL, the developer can run it again and compare the results. When the problem sits inside a function, procedure or trigger, the [PostgreSQL debugger](https://www.devart.com/dbforge/postgresql/studio/postgresql-debugger.html){:target="_blank" rel="noopener"} lets the developer set breakpoints, step through the code, watch variable values and pinpoint the statement that causes the problem. For schema work, comparisons between source and target databases can reveal environment differences and produce synchronization scripts for review.
 
-Devart describes the product as a cross-platform [PostgreSQL GUI](https://www.devart.com/dbforge/postgresql/studio/) and IDE. Import, export and reporting are available too, although feature availability depends on the edition.
+Devart describes the product as a cross-platform [PostgreSQL GUI](https://www.devart.com/dbforge/postgresql/studio/){:target="_blank" rel="noopener"} and IDE. Import, export and reporting are available too, although feature availability depends on the edition.
 
 When evaluating a PostgreSQL IDE, I'd start with an ordinary task from the team's backlog. Can the next reviewer follow what changed? A PostgreSQL development tool earns its place there. The practical value of a PostgreSQL GUI tool is easier inspection of the database and generated SQL, especially when the work must be handed to someone else.
 
@@ -124,7 +124,7 @@ When evaluating a PostgreSQL IDE, I'd start with an ordinary task from the team'
 
 AI generated SQL must be validated as correct and performant, the same as SQL written by a developer. Half the battle is just running a statement.
 
-Context-aware [dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/) can generate queries, explain code, troubleshoot SQL and offer optimizations. That's good for first draft or unnamed statement. The reviewer still needs to verify the query returns the correct records and complies with the application’s permissions.
+Context-aware [dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/){:target="_blank" rel="noopener"} can generate queries, explain code, troubleshoot SQL and offer optimizations. That's good for first draft or unnamed statement. The reviewer still needs to verify the query returns the correct records and complies with the application’s permissions.
 
 A join can look reasonable, and multiply rows unexpectedly. An aggregate can count the wrong thing and come up with a plausible number. Good formatting and confident explanations will not solve either problem.
 
@@ -134,7 +134,7 @@ Another way to build joins, columns and filters without losing the ability to in
 
 PostgreSQL automation is good for repetitive tasks with known inputs and checks. It requires a schedule, and before that an unclear synchronization operation needs investigation.
 
-[dbForge Studio for PostgreSQL](https://www.devart.com/dbforge/postgresql/studio/) provides command-line schema and data comparison, import and export, data generation and reporting. Re-use saved comparison settings in scheduled jobs or CI/CD workflows. This means that it is possible to do a comparison before a deployment and leave the output for review.
+[dbForge Studio for PostgreSQL](https://www.devart.com/dbforge/postgresql/studio/){:target="_blank" rel="noopener"} provides command-line schema and data comparison, import and export, data generation and reporting. Re-use saved comparison settings in scheduled jobs or CI/CD workflows. This means that it is possible to do a comparison before a deployment and leave the output for review.
 
 The review has to mean something. If the automated comparison says an object should be deleted, someone has to determine if the deletion is intentional. That the command passes the exit-code check does not answer that question.
 
