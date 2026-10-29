@@ -9,7 +9,7 @@ tags:
   - database
 ---
 
-_AI and SQL automation take routine work off analysts, developers, and DBAs. Scheduled data imports and exports, reports, stored procedures, backups, and ETL jobs run without manual steps, and AI assistants turn plain-language requests into SQL, explain queries, and suggest optimizations. Tools such as dbForge Edge with dbForge AI Assistant bring both into one environment._
+_AI and SQL automation take routine work off analysts, developers, and DBAs. Scheduled data imports and exports, reports, stored procedures, backups, and ETL jobs run without manual steps, and AI assistants turn plain-language requests into SQL, explain queries, and suggest optimizations. Tools such as dbForge Edge, a [database IDE](https://www.devart.com/dbforge/edge/) with dbForge AI Assistant built in, bring AI help and command-line automation for many of these tasks into one environment._
 
 _Today, adopting technology is not a choice, but a necessity. Teams struggle to keep up with the growing volume of data and progressively stricter analysis standards when they rely solely on manual SQL processes. AI and SQL automations fill this gap by turning tedious processes into fast, error-free pipelines._
 
