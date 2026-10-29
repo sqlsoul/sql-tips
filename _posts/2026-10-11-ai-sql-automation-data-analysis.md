@@ -65,7 +65,7 @@ Try the free trial and see how AI-powered SQL Server automation can change the w
 
 The change is already underway: SQL automation and AI have moved from optional to essential. Teams that embrace them today don’t just save hours of work; they set themselves up to move faster, deliver more reliable results, and make smarter decisions.
 
-Ready to see the difference for yourself? Try dbForge Edge + AI Assistant for free, or send us a message to learn how SQL automation tools can transform your SQL workflows.
+Ready to see the difference for yourself? Try dbForge Edge with dbForge AI Assistant for free and see how SQL automation tools can transform your SQL workflows.
 
 ## FAQ
 
